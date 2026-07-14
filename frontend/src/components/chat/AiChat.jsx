@@ -1,12 +1,12 @@
-function AIChat() {
+function AiChat() {
   return (
     <div className="bg-white rounded-xl shadow-md p-6 h-full">
 
       <h2 className="text-2xl font-bold mb-4">
-        🤖 AI Assistant
+         AI Assistant
       </h2>
 
-      <div className="h-[450px] border rounded-lg p-4 bg-gray-50 overflow-y-auto">
+      <div className="h-112.5 border rounded-lg p-4 bg-gray-50 overflow-y-auto">
         <p className="text-gray-500">
           Hello! I can help you log HCP interactions, summarize meetings, edit previous records, and suggest follow-ups.
         </p>
@@ -28,4 +28,4 @@ function AIChat() {
   );
 }
 
-export default AIChat;
+export default AiChat;
